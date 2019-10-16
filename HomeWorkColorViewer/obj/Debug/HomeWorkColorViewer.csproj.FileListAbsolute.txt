@@ -1,0 +1,56 @@
+C:\Users\Olga\source\repos\ColorViewer\HomeWorkColorViewer\bin\Debug\HomeWorkColorViewer.exe.config
+C:\Users\Olga\source\repos\ColorViewer\HomeWorkColorViewer\bin\Debug\HomeWorkColorViewer.exe
+C:\Users\Olga\source\repos\ColorViewer\HomeWorkColorViewer\bin\Debug\HomeWorkColorViewer.pdb
+C:\Users\Olga\source\repos\ColorViewer\HomeWorkColorViewer\obj\Debug\HomeWorkColorViewer.csprojAssemblyReference.cache
+C:\Users\Olga\source\repos\ColorViewer\HomeWorkColorViewer\obj\Debug\MainWindow.g.cs
+C:\Users\Olga\source\repos\ColorViewer\HomeWorkColorViewer\obj\Debug\App.g.cs
+C:\Users\Olga\source\repos\ColorViewer\HomeWorkColorViewer\obj\Debug\HomeWorkColorViewer_MarkupCompile.cache
+C:\Users\Olga\source\repos\ColorViewer\HomeWorkColorViewer\obj\Debug\MainWindow.baml
+C:\Users\Olga\source\repos\ColorViewer\HomeWorkColorViewer\obj\Debug\HomeWorkColorViewer.g.resources
+C:\Users\Olga\source\repos\ColorViewer\HomeWorkColorViewer\obj\Debug\HomeWorkColorViewer.Properties.Resources.resources
+C:\Users\Olga\source\repos\ColorViewer\HomeWorkColorViewer\obj\Debug\HomeWorkColorViewer.csproj.GenerateResource.cache
+C:\Users\Olga\source\repos\ColorViewer\HomeWorkColorViewer\obj\Debug\HomeWorkColorViewer.csproj.CoreCompileInputs.cache
+C:\Users\Olga\source\repos\ColorViewer\HomeWorkColorViewer\obj\Debug\HomeWorkColorViewer.exe
+C:\Users\Olga\source\repos\ColorViewer\HomeWorkColorViewer\obj\Debug\HomeWorkColorViewer.pdb
+D:\ColorViewer\HomeWorkColorViewer\bin\Debug\HomeWorkColorViewer.exe.config
+D:\ColorViewer\HomeWorkColorViewer\bin\Debug\HomeWorkColorViewer.exe
+D:\ColorViewer\HomeWorkColorViewer\bin\Debug\HomeWorkColorViewer.pdb
+D:\ColorViewer\HomeWorkColorViewer\obj\Debug\HomeWorkColorViewer.csprojAssemblyReference.cache
+D:\ColorViewer\HomeWorkColorViewer\obj\Debug\MainWindow.baml
+D:\ColorViewer\HomeWorkColorViewer\obj\Debug\MainWindow.g.cs
+D:\ColorViewer\HomeWorkColorViewer\obj\Debug\App.g.cs
+D:\ColorViewer\HomeWorkColorViewer\obj\Debug\HomeWorkColorViewer_MarkupCompile.cache
+D:\ColorViewer\HomeWorkColorViewer\obj\Debug\HomeWorkColorViewer.g.resources
+D:\ColorViewer\HomeWorkColorViewer\obj\Debug\HomeWorkColorViewer.Properties.Resources.resources
+D:\ColorViewer\HomeWorkColorViewer\obj\Debug\HomeWorkColorViewer.csproj.GenerateResource.cache
+D:\ColorViewer\HomeWorkColorViewer\obj\Debug\HomeWorkColorViewer.csproj.CoreCompileInputs.cache
+D:\ColorViewer\HomeWorkColorViewer\obj\Debug\HomeWorkColorViewer.exe
+D:\ColorViewer\HomeWorkColorViewer\obj\Debug\HomeWorkColorViewer.pdb
+F:\ColorViewer\HomeWorkColorViewer\bin\Debug\HomeWorkColorViewer.exe.config
+F:\ColorViewer\HomeWorkColorViewer\bin\Debug\HomeWorkColorViewer.exe
+F:\ColorViewer\HomeWorkColorViewer\bin\Debug\HomeWorkColorViewer.pdb
+F:\ColorViewer\HomeWorkColorViewer\obj\Debug\HomeWorkColorViewer.csprojAssemblyReference.cache
+F:\ColorViewer\HomeWorkColorViewer\obj\Debug\MainWindow.baml
+F:\ColorViewer\HomeWorkColorViewer\obj\Debug\MainWindow.g.cs
+F:\ColorViewer\HomeWorkColorViewer\obj\Debug\App.g.cs
+F:\ColorViewer\HomeWorkColorViewer\obj\Debug\HomeWorkColorViewer_MarkupCompile.cache
+F:\ColorViewer\HomeWorkColorViewer\obj\Debug\HomeWorkColorViewer.g.resources
+F:\ColorViewer\HomeWorkColorViewer\obj\Debug\HomeWorkColorViewer.Properties.Resources.resources
+F:\ColorViewer\HomeWorkColorViewer\obj\Debug\HomeWorkColorViewer.csproj.GenerateResource.cache
+F:\ColorViewer\HomeWorkColorViewer\obj\Debug\HomeWorkColorViewer.csproj.CoreCompileInputs.cache
+F:\ColorViewer\HomeWorkColorViewer\obj\Debug\HomeWorkColorViewer.exe
+F:\ColorViewer\HomeWorkColorViewer\obj\Debug\HomeWorkColorViewer.pdb
+F:\C#\ColorViewer\Новая папка\HomeWorkColorViewer\bin\Debug\HomeWorkColorViewer.exe.config
+F:\C#\ColorViewer\Новая папка\HomeWorkColorViewer\bin\Debug\HomeWorkColorViewer.exe
+F:\C#\ColorViewer\Новая папка\HomeWorkColorViewer\bin\Debug\HomeWorkColorViewer.pdb
+F:\C#\ColorViewer\Новая папка\HomeWorkColorViewer\obj\Debug\HomeWorkColorViewer.csprojAssemblyReference.cache
+F:\C#\ColorViewer\Новая папка\HomeWorkColorViewer\obj\Debug\MainWindow.baml
+F:\C#\ColorViewer\Новая папка\HomeWorkColorViewer\obj\Debug\MainWindow.g.cs
+F:\C#\ColorViewer\Новая папка\HomeWorkColorViewer\obj\Debug\App.g.cs
+F:\C#\ColorViewer\Новая папка\HomeWorkColorViewer\obj\Debug\HomeWorkColorViewer_MarkupCompile.cache
+F:\C#\ColorViewer\Новая папка\HomeWorkColorViewer\obj\Debug\HomeWorkColorViewer.g.resources
+F:\C#\ColorViewer\Новая папка\HomeWorkColorViewer\obj\Debug\HomeWorkColorViewer.Properties.Resources.resources
+F:\C#\ColorViewer\Новая папка\HomeWorkColorViewer\obj\Debug\HomeWorkColorViewer.csproj.GenerateResource.cache
+F:\C#\ColorViewer\Новая папка\HomeWorkColorViewer\obj\Debug\HomeWorkColorViewer.csproj.CoreCompileInputs.cache
+F:\C#\ColorViewer\Новая папка\HomeWorkColorViewer\obj\Debug\HomeWorkColorViewer.exe
+F:\C#\ColorViewer\Новая папка\HomeWorkColorViewer\obj\Debug\HomeWorkColorViewer.pdb

@@ -1,0 +1,198 @@
+﻿<Window x:Class="HomeWorkColorViewer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="ColorViewer" Height="450" Width="800">
+    <Window.Resources>
+        <Style TargetType="CheckBox" x:Key="cbCheckBox">
+            <Setter Property="IsChecked" Value="True"/>
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="Width" Value="15"/>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="tbCanal">
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Width" Value="70"/>
+            <Setter Property="TextAlignment" Value="Right"/>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="tbCanalValue">
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Width" Value="40"/>
+            <Setter Property="TextAlignment" Value="Center"/>
+        </Style>
+        <Style TargetType="Slider" >
+            <Setter Property="Minimum" Value="0" />
+            <Setter Property="Maximum" Value="255" />
+            <Setter Property="IsSnapToTickEnabled" Value="True" />
+            <Setter Property="TickFrequency" Value="1" />
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="7*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="75"  />
+        </Grid.ColumnDefinitions>
+
+        <DockPanel Grid.Row="0">
+            <!--Триггер для слайдера канала прозрачности-->
+            <DockPanel.Resources>
+                <Style BasedOn="{StaticResource {x:Type Slider}}"
+                       TargetType="Slider" x:Key="Alpha" >
+                       <Style.Triggers>
+                           <DataTrigger Binding="{Binding ElementName=cbAlphaCanal,Path=IsChecked}" Value="False">
+                               <Setter Property="IsEnabled" Value="False"/>
+                           </DataTrigger>
+                       </Style.Triggers>
+                </Style>
+            </DockPanel.Resources>
+            <CheckBox Style="{StaticResource cbCheckBox}"
+                      Name="cbAlphaCanal"/>
+            <TextBlock Style="{StaticResource tbCanal}"
+                       Text="Alpha :"/>
+            <TextBlock Style="{StaticResource tbCanalValue}"
+                       Text="{Binding ElementName=AlphaSlider,Path=Value}"/>
+            <Slider Style="{DynamicResource Alpha}"
+                    Value="{Binding MyColor.Alpha}"
+                    Name="AlphaSlider"
+                    Maximum="100"/>
+        </DockPanel>
+        <DockPanel Grid.Row="1">
+            <!--Триггер для слайдера красного канала-->
+            <DockPanel.Resources>
+                <Style BasedOn="{StaticResource {x:Type Slider}}" 
+                       TargetType="Slider" x:Key="RedCanal" >
+                       <Style.Triggers>
+                           <DataTrigger Binding="{Binding ElementName=cbRedCanal,Path=IsChecked}" Value="False">
+                               <Setter Property="IsEnabled" Value="False"/>
+                           </DataTrigger>
+                       </Style.Triggers>
+                </Style>
+            </DockPanel.Resources>
+            <CheckBox Style="{StaticResource cbCheckBox}"
+                      Name="cbRedCanal">
+            </CheckBox>
+            <TextBlock Style="{StaticResource tbCanal}"
+                       Text="Red :"/>
+            <TextBlock Style="{StaticResource tbCanalValue}"
+                       Text="{Binding ElementName=RedSlider,Path=Value}"/>
+            <Slider Style="{DynamicResource RedCanal}"
+                    Value="{Binding MyColor.Red}"
+                    Name="RedSlider">
+            </Slider>
+        </DockPanel>
+        <DockPanel Grid.Row="2">
+            <!--Триггер для слайдера зеленого канала-->
+            <DockPanel.Resources>
+                <Style BasedOn="{StaticResource {x:Type Slider}}"
+                       TargetType="Slider" x:Key="GreenCanal" >
+                       <Style.Triggers>
+                           <DataTrigger Binding="{Binding ElementName=cbGreenCanal,Path=IsChecked}" Value="False">
+                               <Setter Property="IsEnabled" Value="False"/>
+                           </DataTrigger>
+                       </Style.Triggers>
+                </Style>
+            </DockPanel.Resources>
+            <CheckBox Style="{StaticResource cbCheckBox}"
+                      Name="cbGreenCanal"/>
+            <TextBlock Style="{StaticResource tbCanal}"
+                       Text="Green :"/>
+            <TextBlock Style="{StaticResource tbCanalValue}"
+                       Text="{Binding ElementName=GreenSlider,Path=Value}"/>
+            <Slider Style="{DynamicResource GreenCanal}"
+                    Value="{Binding MyColor.Green}"
+                    Name="GreenSlider"/>
+        </DockPanel>
+        <DockPanel Grid.Row="3">
+            <!--Триггер для слайдера синего канала-->
+            <DockPanel.Resources>
+                <Style BasedOn="{StaticResource {x:Type Slider}}"
+                       TargetType="Slider" x:Key="BlueCanal" >
+                       <Style.Triggers>
+                           <DataTrigger Binding="{Binding ElementName=cbBlueCanal,Path=IsChecked}" Value="False">
+                               <Setter Property="IsEnabled" Value="False"/>
+                           </DataTrigger>
+                       </Style.Triggers>
+                </Style>
+            </DockPanel.Resources>
+            <CheckBox Style="{StaticResource cbCheckBox}"
+                      Name="cbBlueCanal"/>
+            <TextBlock Style="{StaticResource tbCanal}"
+                       Text="Blue :"/>
+            <TextBlock Style="{StaticResource tbCanalValue}"
+                       Text="{Binding ElementName=BlueSlider,Path=Value}"/>
+            <Slider Style="{DynamicResource BlueCanal}"
+                    Value="{Binding MyColor.Blue}"
+                    Name="BlueSlider"/>
+        </DockPanel>
+
+        <Border Grid.Column="1"
+                Grid.RowSpan="4"
+                Background="{Binding MyColor.MyColorHex,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                Margin="5"
+                Name="MyBorder"/>
+        
+        <TextBlock Grid.Row="4"
+                   Grid.Column="1"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"
+                   FontSize="14"
+                   FontWeight="DemiBold"
+                   Text="{Binding MyColor.MyColorHex}"/>
+
+        <Button Grid.Row="4"
+                Width="100"
+                HorizontalAlignment="Left"
+                Margin="5"
+                Content="Add"
+                Command="{Binding AddCommand}">
+        </Button>
+
+        <!--Отображение списка сохраненных цветов-->
+        <Border Grid.Row="5" Grid.ColumnSpan="2"
+                BorderThickness="2"
+                BorderBrush="LightGray"
+                Margin="2">
+            <ListBox HorizontalContentAlignment="Stretch"
+                ItemsSource="{Binding Colors}">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <DockPanel LastChildFill="True">
+                            <Button  DockPanel.Dock="Right"
+                                     Width="100"
+                                     Margin="3"
+                                     Content="Delete"
+                                     Command="{Binding Path=DataContext.DelCommand,RelativeSource={RelativeSource AncestorType={x:Type ListBox}}}"
+                                     CommandParameter="{Binding MyColorHex}"/>
+                            <DockPanel DockPanel.Dock="Right"
+                                       LastChildFill="True">
+                            <TextBlock DockPanel.Dock="Left"
+                                       Width="80"
+                                       FontSize="14"
+                                       FontWeight="DemiBold"
+                                       TextAlignment="Center"
+                                       VerticalAlignment="Center"
+                                       Text="{Binding MyColorHex}"/>
+                             <Border Margin="2"
+                                     Background="{Binding MyColorHex}"/>
+                            </DockPanel>
+                            
+                        </DockPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </Border>
+    </Grid>
+</Window>
